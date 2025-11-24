@@ -20,3 +20,4 @@ Finally, you can check all your pictures scores in the Elo scores.json file.
 /!\ running the dict_build.py file will reinitialize the Elo score.json file
 /!\ also make sure to add at least 3 pictures in the pictures folder or it will return an error when pressin the score button
 
+P.S : the interface is in french
