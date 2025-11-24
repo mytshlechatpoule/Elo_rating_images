@@ -1,0 +1,26 @@
+{
+    "elo_rating_coef": 32,
+    "fenetre_theme": {
+        "default": {
+            "background": "#FFFFFF",
+            "text": "#000000",
+            "button": "#C2C2C2"
+        },
+        "wood": {
+            "background": "#453F3F",
+            "text": "#BFB4B4",
+            "button": "#666060"
+        },
+        "ocean": {
+            "background": "#161C47",
+            "text": "#7D87BD",
+            "button": "#2E398F"
+        },
+        "volcan": {
+            "background": "#300E03",
+            "text": "#FFA585",
+            "button": "#9E593F"
+        }
+    },
+    "chosen_theme": "volcan"
+}
