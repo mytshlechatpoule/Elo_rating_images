@@ -1,23 +1,7 @@
-Welcome in my Elo Rating Pictures program.Here are the important things you may know before running the program :
+Yo
 
-1.Dependencies
-You need to run the program with an environnement and the requirements.txt installed.
+Ceci est un programme qui vous permet de déterminer votre image préférée dans une liste. Il vous proposera de nombreuses fois deux images en vous demandant de choisir celle que vous préférez et attribuera à chacune un classement elo.
 
-2.Setup before using
-You can just drag and drop the pictures you want to use in the pictures folder.
-Then, run the dict_build.py file to initialize the Elo score.json file.
+Vous pouvez ajouter toutes les images que vous souhaitez dans un dossier "Pictures" qu'il faut mettre à la racine du progrmame. Lancez ensuite le programme 'dict_build.py' qui va créer un fichier 'Elo score.json' prêt à l'emploi. Ensuite, vous n'avez plus qu'à lancer 'choose_program.py'. L'interface est assez explicite. Pour ajouter des thèmes personnalisés, rendez-vous dans le fichier 'config.json'.
 
-3.How to use
-You can now run the choose_program.py file. It should open a window where you can directly choose your favorites images.
-
-4.Configure
-As you can see in the window, there is a listbox where you can choose the theme you are using. By default there are 4 themes.
-You can change their name. You can also change their proprieties by changing the value of "background", "text", or "button".
-You can also add your own theme in the "fenetre_theme" key.
-You can customize the "elo_rating_coef". That will change the way the program calculates the elo score, and the highest the coefficient will be, the fastest the scores will change.
-Finally, you can check all your pictures scores in the Elo scores.json file.
-
-/!\ running the dict_build.py file will reinitialize the Elo score.json file
-/!\ also make sure to add at least 3 pictures in the pictures folder or it will return an error when pressin the score button
-
-P.S : the interface is in french
+Note : certaines dépendances sont nécessaires pour utiliser ce programme (pillow). Installez-les via le fichier 'requirements.txt'.
